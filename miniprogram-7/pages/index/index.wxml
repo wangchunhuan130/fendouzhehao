@@ -1,0 +1,9 @@
+
+<view class="time">{{time1}}</view>
+<view  class="time">本月已累计签到{{times}}天</view>
+<block wx:if="{{showbutton}}">
+    <button type="primary" bindtap="qiandao">签到</button>
+    </block>
+    <block wx:else>
+    <button bindtap="wolgqu" class="meiriyiyan">每日一言</button>
+    </block>
